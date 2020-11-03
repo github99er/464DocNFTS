@@ -1,4 +1,4 @@
-# Creating an ERC-721 token
+# Creating a Standard ERC-721 token
 
 This document showcases two standard implementations of the ERC-721 standard one: a personal implementation that follows Ethereum standard guidelines; the other is a standard implementation by OpenZeppelin. The ERC-721 standard can be used to build NFTs or non-fungible tokens on the Ethereum Blockchain.
 
