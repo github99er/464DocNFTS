@@ -30,7 +30,7 @@ contract NFT is ERC721 {
 }
 ```
 
-### 1. Transfer
+### 1. Approval
 ```
 function approval(address, _owner, address _approved, uint _tokenId) {
   require(units[_owner] == _tokenId);
@@ -38,7 +38,7 @@ function approval(address, _owner, address _approved, uint _tokenId) {
 }
 ```
 
-### 2. Approval
+### 2. Transfer
 ```
 function transfer(address _to, uint _amount) public payable {
   // payable allows a function to receive ethereum while being called
